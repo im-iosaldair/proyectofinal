@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/movil.css">
+    <link rel="stylesheet" href="jquery.fancybox.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://kit.fontawesome.com/0cf1d9fef8.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.tinycarousel.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <title>Home</title>
+</head>
+<body>
+  
+  <header class="ancho cabecera">
+    <a class="inicio" href="index.html"><h1 class="negro">Beauty <span class="naranja">Salon</span></h1></a>
+
+    <i id="iconomenu" class=" icono_menu fa-solid fa-bars"></i>
+    <nav id="menu">
+        <ul>
+          <li><a href="index.html">Home <i class="angleabajo fa-solid fa-angle-down"></i></a></li>
+          <li><a href="about.html">About <i class="angleabajo fa-solid fa-angle-down"></i></a></li>
+          <li><a href="services.html">Services <i class="angleabajo fa-solid fa-angle-down"></i></a></li>
+          <li><a href="store.html">Products <i class="angleabajo fa-solid fa-angle-down"></i></a></li>
+          <li><a href="#">Blog <i class="angleabajo fa-solid fa-angle-down"></i></a></li>
+          <li><a href="#">Pages <i class="angleabajo fa-solid fa-angle-down"></i></a></li>
+          <li><a href="#">Contacts <i class="angleabajo fa-solid fa-angle-down"></i></a></li>
+          <a class="btncompras" href="#"><i class="iconocompras fa-solid fa-cart-shopping"></i></a>
+        </ul>
+    </nav>
+</header>
+
+    <section class="slide">
+        <div class="contslide">
+            <ul class="slide1">
+              <li><img src="imagenes/fotoslide1.jpg" alt="" />
+                <div class="texto">
+                    <h1 class="tituloslide">Let Us Offer You</h1>
+                    <h2 class="subslide">The Best Beauty Services</h2>
+                    <br>
+                    <p class="txtslide">
+                        We specialize at high-quality beauty services that range from skin care to hair coloring and styling. Our stylists will be glad to provide you with an amazing look.
+                    </p>
+                    <br>
+                    <a href="#" class="btn_rojo"> Book An Appointment</a>
+                  </div>
+                </li>
+              <li><img src="imagenes/fotoslide2.jpg" alt="" />
+                <div class="texto" id="texto2">
+                    <h1 class="tituloslide">Take Car of Yourself</h1>
+                    <h2 class="subslide">With Our Comprehensive Help</h2>
+                    <br>
+                    <p class="txtslide">
+                        Every day we hel dozens of our clients look gorgeous.
+                        With our services and extensive beauty care, you can always look & feel great.
+                    </p>
+                    <br>
+                    <a href="#" class="btn_rojo"> Book An Appointment</a>
+                  </div>
+                </li>
+              <li><img src="imagenes/fotoslide3.jpg" alt="" />
+                <div class="texto">
+                    <h1 class="tituloslide">Enjoy The Ultimate</h1>
+                    <h2 class="subslide">Beauty Salons Experience</h2>
+                    <br>
+                    <p class="txtslide">
+                        At beauty salons, you beauty experience a wide range a service aimed at gaining your new captivating look an style that you always wanted to have
+                    </p>
+                    <br>
+                    <a href="#" class="btn_rojo"> Book An Appointment</a>
+                  </div>  
+            </li>
+            </ul>   
+          </div> 
+          <div class="contformulario">
+            <h1 class="tituloform">Book an appointment</h1>
+            <form action="" class="formulario" id="form">
+              <br>
+              <label for="">Your Name</label>
+              <input id="name" type="text">
+              <label for="">Your Mail</label>
+              <input id="mail" type="mail">
+              <div class="contabajo">
+                <div class="cont1">
+                <label for="">Date</label>
+              <input id="date" type="text">
+            </div>
+            <div class="cont2">
+              <label for="">Time</label>
+              <input id="time" type="text">
+            </div>
+            </div>
+            <input class="btnform" type="button" value="Book Now">
+            </form>
+          </div>      
+        </section>
+
+        <section class="servicios">
+          <h3 class="subservice">For Our Clients</h3>
+          <h1 id="titservice">Our Services</h1>
+          <article id="movarriba" class="wow animate__animated animate__backInLeft contservicios">
+            <figure class="conticonoservice">
+              <img class="icservice" src="imagenes/001-masaje-corporal.png" alt="">
+            </figure>
+            <h1 class="titservice">Full Body Massage</h1>
+            <hr class="sep1">
+          </article>
+          <article class="wow animate__animated animate__backInUp animate__delay-2s contservicios">
+            <figure class="conticonoservice">
+              <img class="icservice" src="imagenes/002-aromaterapia.png" alt="">
+            </figure>
+            <h1 class="titservice">Aromatherapy Treatment</h1>
+            <hr class="sep1">
+          </article>
+          <article class="wow animate__animated animate__backInUp animate__delay-3s contservicios">
+            <figure class="conticonoservice">
+              <img class="icservice" src="imagenes/003-masaje-facial.png" alt="">
+            </figure>
+            <h1 class="titservice">Facial Care</h1>
+            <hr class="sep1">
+          </article>
+          <article class="wow animate__animated animate__backInRight animate__delay-1s contservicios">
+            <figure class="conticonoservice">
+              <img class="icservice" src="imagenes/make-up.png" alt="">
+            </figure>
+            <h1 class="titservice">Make-up Applications</h1>
+            <hr class="sep1">
+          </article>
+
+          <a class="btnview wow animate__animated animate__backInUp animate__delay-3s hvr-bounce-to-top" href="#">View All Services</a>
+        </section>
+
+        <br><br>
+        <section class="acercade">
+          <article class="ancho descuento">
+            <div id="txtacerca">
+            <span class="span2">10% off
+            </span>           
+            <p class="txtdescuento">On first service you get</p>
+
+            <p class="greeting">As a greeting to Beauty Salon, we are offering 10% off your first attempt when you request for a credit card with your voucher code. Everything you have to do is enter the following code into the shopping cart: NEW10</p>
+
+            <a class="hvr-bounce-out btndescuento" href="#">Book appointment</a>
+          </div>
+          <div class="wow animate__animated animate__backInDown animate__delay-1s imgforma"></div>
+          <div class="wow animate__animated animate__backInUp animate__delay-1s informa2"></div>
+        </article>
+        </section>
+
+        <br><br><br>
+        <div id="slider1">
+          <h3 class="subproduc">Our Store</h3>
+          <h1 id="titproduc">Products & Gifts</h1>
+        <div class=" viewport">
+          <ul class="overview">
+              <li class="wow animate__animated animate__fadeInLeft">
+               <div class="circle"><span class="span3">$25</span></div>
+                <div class="formaplanes"><p class="tipo">Silver</p></div>
+                <div id="nombre">
+                <p class="nombre"><i class="check fa-solid fa-check"></i> Quisque justo dui sollicitudin</p>
+                <p class="nombre"><i class="check fa-solid fa-check"></i> Aenean et aliquet risus</p>
+                <p class="nombre"><i class="check fa-solid fa-check"></i> Duis fringilla tellus dui posuere</p>
+                <p class="nombre"><i class="equis fa-solid fa-xmark"></i></i> sollicitudin tortor pellentesque</p>
+                <p class="nombre"><i class="equis fa-solid fa-xmark"></i> Pellentesque efficitur orci</p>
+                </div>
+                <a class="hvr-float btnplanes" href="#">Purchase now <i class="derecha fa-solid fa-arrow-right"></i></a>
+              </li>
+
+              <li class="wow animate__animated animate__fadeInRight">
+                <div class="circle"><span class="span3">$49</span></div>
+                 <div class="formaplanes"><p class="tipo">Silver</p></div>
+                 <div id="nombre">
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Quisque justo dui sollicitudin</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Aenean et aliquet risus</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Duis fringilla tellus dui posuere</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i></i> sollicitudin tortor pellentesque</p>
+                 <p class="nombre"><i class="equis fa-solid fa-xmark"></i> Pellentesque efficitur orci</p>
+                 </div>
+                 <a class="hvr-float btnplanes" href="#">Purchase now <i class="derecha fa-solid fa-arrow-right"></i></a>
+               </li>
+               
+               <li class="wow animate__animated animate__fadeInUp">
+                <div class="circle"><span class="span3">$99</span></div>
+                 <div class="formaplanes"><p class="tipo">Silver</p></div>
+                 <div id="nombre">
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Quisque justo dui sollicitudin</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Aenean et aliquet risus</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Duis fringilla tellus dui posuere</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i></i> sollicitudin tortor pellentesque</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Pellentesque efficitur orci</p>
+                 </div>
+                 <a class="hvr-float btnplanes" href="#">Purchase now <i class="derecha fa-solid fa-arrow-right"></i></a>
+               </li>
+
+               <li>
+                <div class="circle"><span class="span3">$125</span></div>
+                 <div class="formaplanes"><p class="tipo">Silver</p></div>
+                 <div id="nombre">
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Quisque justo dui sollicitudin</p>
+                 <p class="nombre"><i class="equis fa-solid fa-xmark"></i> Aenean et aliquet risus</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Duis fringilla tellus dui posuere</p>
+                 <p class="nombre"><i class="equis fa-solid fa-xmark"></i></i> sollicitudin tortor pellentesque</p>
+                 <p class="nombre"><i class="equis fa-solid fa-xmark"></i> Pellentesque efficitur orci</p>
+                 </div>
+                 <a class="hvr-float btnplanes" href="#">Purchase now <i class="derecha fa-solid fa-arrow-right"></i></a>
+               </li>
+
+               <li>
+                <div class="circle"><span class="span3">$150</span></div>
+                 <div class="formaplanes"><p class="tipo">Silver</p></div>
+                 <div id="nombre">
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Quisque justo dui sollicitudin</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Aenean et aliquet risus</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Duis fringilla tellus dui posuere</p>
+                 <p class="nombre"><i class="equis fa-solid fa-xmark"></i></i> sollicitudin tortor pellentesque</p>
+                 <p class="nombre"><i class="check fa-solid fa-check"></i> Pellentesque efficitur orci</p>
+                 </div>
+                 <a class="hvr-float btnplanes" href="#">Purchase now <i class="derecha fa-solid fa-arrow-right"></i></a>
+               </li>
+          </ul>
+      </div>
+        <a class="buttons prev hvr-backward" href="#"><i class="fa-solid fa-arrow-left"></i></a>
+        <a class="buttons next hvr-forward" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+      
+      </div>
+
+      <br><br><br>
+      <section class="about"> 
+        <article class="contizquierda">
+            <h3 id="about">About Us</h3>
+            <h1 id="titabout">A Few Words About Us</h1>
+  
+          <br /><br />
+            <p class="parr_uno">
+              Passion, experience and a fierce commitment to education are the cornerstones of our success in the beauty industry
+            </p>
+  
+          <br />
+          
+            <p class="parr_dos">
+              Our highly trained service providers are more than just stylists, but they embrace an artistic approach to every client they meet with. The moment you step into our salon, you are engulfed in the ivory, green, and gold tones that encompass the area of the Beauty Salon.
+            </p>
+  
+          <br />
+  
+          <div class="contbotones">
+            <a class="btnuno" href="#">Learn More</a>
+          </div>
+        </article>
+        <aside class="contderecha">    
+            <div class="contarriba">
+            <article class="primero">
+              <i id="ic" class="fa-solid fa-mug-hot"></i>
+              <h1 id="top">Top-Notch Service</h1>
+              <p id="looking">Looking for the beauty services of the utmost quality? We can help you.</p>
+            </article>
+            <article class="primero">
+              <i id="ic" class="fa-solid fa-user-check"></i>
+              <h1 id="top">Qualified Personnel</h1>
+              <p id="looking">Beauty Salon’s staff is a team of certified and educated beauty experts.</p>
+            </article>
+            </div>
+            <div class="contabajo2">
+            <article class="primero">
+              <i id="ic" class="fa-brands fa-product-hunt"></i>
+              <h1 id="top">Beauty Products</h1>
+              <p id="looking">If you want to order and deliver beauty products we use, just give us a call.</p>
+            </article>
+            <article class="primero">
+              <i id="ic" class="fa-solid fa-gift"></i>
+              <h1 id="top">Discounts</h1>
+              <p id="looking">We have a flexible discount system that allows you to save on our services.</p>
+            </article>
+            </div>
+          
+        </aside>
+
+        </section>
+      
+      <br><br>
+      <section class="ancho" id="team">
+        <div class="contizquierda2">
+          <article class="card">
+          <figure class="cara adelante">
+            <img src="imagenes/foto_founder.png" alt="">
+            <div class="txfoto">
+            <p class="p1">Emma Alice</p>
+            <p class="p2">Founder</p>
+            </div>
+          </figure>
+          <div class="cara atras">
+            <h3>About me</h3>
+            <p>I started with this business 3 years ago, I did not imagine going as far as I have until now. I thank my colleagues and work team for giving me their support during all this time.</p>
+            <div id="iconosatras">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="cara adelante">
+            <img src="imagenes/foto_cofounder.png" alt="">
+            <div class="txfoto">
+            <p class="p1">Catherine</p>
+            <p class="p2">Co Founder</p>
+            </div>
+          </figure>
+          <div class="cara atras">
+            <h3>About me</h3>
+            <p>I started with this business 3 years ago, I did not imagine going as far as I have until now. I thank my colleagues and work team for giving me their support during all this time.</p>
+            <div id="iconosatras">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="cara adelante">
+            <img src="imagenes/foto_artist.png" alt="">
+            <div class="txfoto">
+            <p class="p1">Alaina Erk</p>
+            <p class="p2">Artist</p>
+            </div>
+          </figure>
+          <div class="cara atras">
+            <h3>About me</h3>
+            <p>I started with this business 3 years ago, I did not imagine going as far as I have until now. I thank my colleagues and work team for giving me their support during all this time.</p>
+            <div id="iconosatras">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="cara adelante">
+            <img src="imagenes/foto_artis.png" alt="">
+            <div class="txfoto">
+            <p class="p1">Anna Haik</p>
+            <p class="p2">Artist</p>
+            </div>
+          </figure>
+          <div class="cara atras">
+            <h3>About me</h3>
+            <p>I started with this business 3 years ago, I did not imagine going as far as I have until now. I thank my colleagues and work team for giving me their support during all this time.</p>
+            <div id="iconosatras">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </article>
+      </div>
+
+        <div class="contderecha2">
+          <article class="txtteam">
+            <h1 class="titteam">The creative team behind the door.</h1>
+            <p class="parr_tres">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cum praesentium reprehenderit quam pariatur quibusdam. Lorem ipsum dolor sit amet.</p>
+            <br>
+            <a class="hvr-pulse-grow" href="#">See More</a>
+        </div>
+      </section>
+      
+      <br><br>
+      <section class="citas">
+        <div class="background-overlay">
+          <div class="contizquierda3">
+          <h1 class="titcitas">Schedule Your Appointment With Us</h1>
+       <p class="txtcitas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minima laboriosam dolore eaque veritatis, hic ab illo sint at ad eligendi rem cum nulla fugiat omnis, eveniet corrupti, cumque dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ducimus?   
+      </p>
+      <br>
+      <p>If you are going use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, doloremque.</p>
+
+       <h2 class="subcitas"><i class="fa-solid fa-clock"></i> Opening Hours</h2>
+       <table>
+        <tr>
+          <td>Sunday - Monday</td>
+          <td class="der">6:00 - 10:30pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday - Wednesday</td>
+          <td class="der">8:00 - 12:30pm</td>
+        </tr>
+        <tr>
+          <td>Thursday - Friday</td>
+          <td class="der">2:00 - 10:30pm</td>
+        </tr>
+       </table>
+       <h2 class="subcitas"><i class="fa-solid fa-location-dot"></i> Our Location</h2>
+       <p class="ubicacion">
+        4400 Koontz Lane
+         <br>
+        Van Nuys,California
+        <br>
+        USA
+         </p>
+        </div>
+
+        <div class="form2">    
+         <br>
+         <form action="" class="formulario2">
+           <h1>Make Appointment</h1>
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni libero porro Lorem ipsum dolor sit amet.</p>
+           <br>
+           <input type="text" name="" id="name2" placeholder="Your name">
+           <input type="email" name="" id="correo" placeholder="Your mail">
+           <div class="juntos">
+          <input type="date" name="" id="fecha" placeholder="Choose date">
+          <input type="datetime" name="" id="hora" placeholder="Choose time">
+          </div>
+          <input type="text" name="" id="campotxt" placeholder="Describe your message">
+
+          <input type="button" value="Make Appointment" id="btnenviar" class="hvr-pulse">
+        </form>
+        </div>
+        </div>
+      </section>
+      <br><br>
+
+      <footer>
+        <article class="pie">
+          <div class="contact">
+          <h3>Address</h3>
+          <br>
+          <p>1090 Richmond Avenue, Houston, 7704, USA</p>
+        </div>
+        <div class="contact">
+          <h3>Contact</h3>
+          <br>
+          <p>+1 627 2532 3523 -
+            mail@example.com</p>
+        </div>
+        <div class="contact">
+          <h3>Office</h3>
+          <br>
+          <p>Monday - Friday
+            9AM - 8PM</p>
+        </div>
+        </article>
+        <hr class="sep2">
+        <p class="derechos">© 2023 All Right Reserved by Iosty Aldair Ek Ek</p>
+      </footer>
+
+      <a id="btnsubir" class="hvr-bob" href="#"><i class="arriba fa-solid fa-arrow-up"></i></a>
+    <script src="js/funciones.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function()
+      {
+        $('#slider1').tinycarousel();
+      });
+    </script>
+</body>
+</html>

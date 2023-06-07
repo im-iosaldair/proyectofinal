@@ -1,0 +1,43 @@
+@media screen and (max-width: 391px) {
+    :root {
+        --color-melon: #e77a66;
+        --color-oro: #dfb784;
+        --color-gris: #a9a9a9;
+        --color-negrito: #45484d;
+        --color-cafecito: #f7f4f0;
+        --color-rojo: #974b55;
+        --popins: "Poppins", sans-serif;
+        --lato: "Lato", sans-serif;
+      }
+
+    .slidestore{
+        height:100vh;
+        filter: brightness(100%);
+        width:100%;
+        margin-top: 95px;
+        border:1px red solid;
+    }
+
+    body{
+        padding:0px 0px 0px;
+    }
+
+    .slidestore .titulos h2{
+        width:300px;
+    }
+    .slidestore .titulos h1{
+        color:var(--color-melon);
+        width:300px;
+    }
+
+    
+    #galeria{
+        
+        background-color: #FFD0D0;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap:20px;
+        padding:20px;
+    }
+}

@@ -1,0 +1,47 @@
+@media screen and (max-width: 391px) {
+    :root {
+        --color-melon: #e77a66;
+        --color-oro: #dfb784;
+        --color-gris: #a9a9a9;
+        --color-negrito: #45484d;
+        --color-cafecito: #f7f4f0;
+        --color-rojo: #974b55;
+        --popins: "Poppins", sans-serif;
+        --lato: "Lato", sans-serif;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      .slideabout{
+        border:1px red solid;
+        margin-top: 95px;
+        height:100vh;
+        filter: brightness(100%);
+        align-items: center;
+        width:100%;
+    }
+      .trabajos{
+        background-color: #FFD0D0;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap:20px;
+        padding:20px;
+      }
+
+      aside{
+        border:1px red solid;
+        width:100%;
+        text-align: center;
+      }
+      aside iframe{
+        border:1px red solid;
+        max-width: 350px;
+        height:250px;
+      }
+      
+}

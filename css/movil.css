@@ -1,0 +1,323 @@
+@media screen and (max-width: 391px) {
+  :root {
+    --color-melon: #e77a66;
+    --color-oro: #dfb784;
+    --color-gris: #a9a9a9;
+    --color-negrito: #45484d;
+    --color-cafecito: #f7f4f0;
+    --color-rojo: #974b55;
+    --popins: "Poppins", sans-serif;
+    --lato: "Lato", sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /*CSS MENU*/
+  .cabecera{
+    min-height:15%;
+    flex-direction: row-reverse;
+
+  }
+  nav{
+    position: absolute;
+    top:94px;
+    left:0;
+    right:0;
+    height:100vh;
+    transition: .3s;
+    display: none;
+    transition: .5s;
+  }
+
+  nav ul{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-melon);
+  }
+
+  nav ul li a{
+    color:white;
+    margin: 10px 0;
+  }
+
+  .btncompras{
+    display: none;
+  }
+  
+  #iconomenu{
+    display: flex;
+  }
+  /*CSS SLIDE*/
+
+  .slide{
+    margin-top: -60px;
+  }
+.slide1 li {
+    width:100%;
+    height: 90vh;
+}
+
+.slide1 img {
+    width:100%;
+    height:100%;
+}
+
+.tituloslide{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.txtslide{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn_rojo{
+    padding:15px 20px;
+    font-size: 14px;
+}
+
+.subslide{
+    font-size: 24px;
+}
+  .contformulario{
+    display: none;
+  }
+  /*CSS SERVICIOS*/
+  .subservice {
+    font-size: 24px;
+    top: 30px;
+  }
+
+  #titservice {
+    font-size: 30px;
+    top: 70px;
+  }
+
+  .servicios article {
+    min-width: 340px;
+    border: 1px var(--color-melon) solid;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  #movarriba {
+    margin-top: 80px;
+  }
+
+  .btnview {
+    margin-top: 30px;
+    padding: 15px 25px;
+  }
+  /*CSS ACERCADE*/
+  .acercade {
+  }
+
+  .imgforma,
+  .informa2 {
+    display: none;
+  }
+
+  .txtdescuento {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .subproduc {
+    font-size: 24px;
+  }
+
+  #titproduc {
+    font-size: 28px;
+  }
+
+  .btndescuento {
+    font-size: 18px;
+  }
+
+  /*CSS SLIDER1*/
+  #slider1 .viewport {
+    width:90%;
+    height: 90%;
+  }
+
+  #slider1 .overview li {
+    height:85%;
+  }
+  /*CSS ABOUT*/
+  .about {
+    flex-direction: column;
+  }
+
+  .about article {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .about aside {
+    width: 100%;
+  }
+
+  .contarriba,
+  .contabajo2 {
+    flex-direction: column;
+  }
+
+  .contderecha .contarriba article {
+    height: 320px;
+    margin-top: 20px;
+  }
+  .contderecha .contabajo2 article {
+    height: 320px;
+    margin-top: 20px;
+  }
+
+  #about {
+    font-size: 24px;
+  }
+
+  #titabout {
+    font-size: 30px;
+  }
+
+  /*CSS TEAM*/
+  #team {
+    flex-direction: column;
+  }
+
+  .contizquierda2 {
+    width: 90%;
+  }
+
+  .contizquierda2 .card {
+    min-width: 80%;
+    height: 270px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .contderecha2 {
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .txtteam h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .txtteam p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  /*CSS CITAS*/
+  .citas {
+    height: 1500px;
+  }
+
+  .citas .background-overlay {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .contizquierda3 {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .contizquierda3 h1 {
+    font-size: 24px;
+  }
+  .form2 {
+      max-width:100%;
+      max-height: 500px;
+      background-color: rgb(243, 119, 97, .3);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .subcitas{
+      margin-left: 20px;
+    }
+
+    .ubicacion{
+      margin-left: 20px;
+    }
+    .formulario2{
+      width:90%;
+    }
+
+    .formulario2 input{
+      width:90%;
+      height: 40px;
+      border-radius: 5px;
+      border:0;
+      margin-top: 10px;
+    }
+
+    .juntos{
+      width:90%;
+    }
+    .formulario2 #fecha, #hora{
+      width:45%;
+    }
+    
+    #campotxt{
+      height:70px;
+    }
+
+    #btnenviar{
+      width:50%;
+    }
+  .citas p {
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+  }
+
+  .citas h2 {
+    font-size: 18px;
+  }
+
+  table {
+    width: 70%;
+    margin-left: 20px;
+  }
+  table tr td{
+    color:black;
+  }
+
+  footer {
+  }
+
+  footer .pie {
+    flex-direction: column;
+  }
+
+  footer .pie .contact {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .sep2 {
+    margin-top: 40%;
+  }
+
+  .derechos {
+    font-size: 12px;
+  }
+
+  #btnsubir{
+    font-size: 16px;
+    padding:5px 8px;
+  } 
+}

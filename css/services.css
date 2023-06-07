@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+:root {
+  --color-melon: #e77a66;
+  --color-oro: #dfb784;
+  --color-gris: #a9a9a9;
+  --color-negrito: #45484d;
+  --color-cafecito: #f7f4f0;
+  --color-rojo: #974b55;
+  --popins: "Poppins", sans-serif;
+  --lato: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ancho {
+  margin: auto;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.slideservices {
+  background-image: url(fotonoticias1.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 150px;
+  filter: brightness(60%);
+}
+
+.slideservices .titulos {
+  width: 30%;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.slideservices .titulos h2 {
+  color: white;
+  font-size: 38px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
+.slideservices .titulos h1 {
+  font-family: var(--popins);
+  font-size: 58px;
+  color: white;
+}
+.testimonials{
+    background-color: #F7F4F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+    padding:20px;
+}
+
+.testimonials article{
+    border:1px #ccc solid;
+    width:320px;
+    height:370px;
+    padding:5px;
+}
+
+.testimonials article:hover{
+  bordeR:3px #ccc solid;
+  transform: translateY(-15px);
+  transition: all .5s;
+}
+
+.testi .txttesti{
+    font-family: var(--lato);
+    font-style: italic;
+    font-size: 22px;
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testi figure{
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.testi figure img{
+  width: 100%;
+  height:100%;
+}
+
+.testi #nom{
+    font-family: var(--popins);
+    font-size: 18px;
+    color:var(--color-melon);
+    text-align: center;
+}
+
+.testi #trab{
+    font-family: var(--lato);
+    font-size: 16px;
+    color:var(--color-gris);
+    text-align: center;
+}
